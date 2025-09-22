@@ -77,4 +77,18 @@ print(string4.startswith("be"))  # False
 print(string1.lower().startswith("be"))
 print(string3.lower().startswith("be"))
 print(string4.lower().lstrip().startswith("be"))
-      
+
+prompt = "Hey, what's up? "
+user_input = input(prompt)
+print("You said: " + user_input)
+
+prompt = "Do you have something to say ? "
+user_input = input(prompt)
+print(user_input)
+
+user_input = input(prompt)
+user_input = user_input.lower()
+print(user_input)
+
+user_input = input(prompt)
+print(len(user_input))
